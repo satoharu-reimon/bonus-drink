@@ -4,7 +4,7 @@ class BonusDrink
      empty = amount;
      while(enpty>=3){
        sum += empty/3;
-       enpty = empty/3 + empty%3;
+       empty = empty/3 + empty%3;
        }
       sum;
    }
