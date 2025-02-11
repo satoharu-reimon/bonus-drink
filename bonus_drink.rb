@@ -1,10 +1,10 @@
 class BonusDrink
   def self.total_count_for(amount)
      sum = amount;   
-     empty = amount;
-     while(empty>=3)
-       sum += empty/3;
-       empty = empty/3 + empty%3;
+     new = amount;
+     while(new>=3)
+       sum += new/3;　　
+       new = new/3 + new%3  
        end
       sum;
      end
